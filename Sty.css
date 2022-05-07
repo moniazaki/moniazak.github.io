@@ -1,0 +1,96 @@
+/*.header{
+color:rgba(247, 0, 255, 0);
+background-color: rgb(199, 199, 232);
+font-size: 20px;
+block-size: 5%;}*/
+
+
+body{
+    background-color:rgba(0, 0, 0, 0);
+
+}
+.box{
+background-color: rgb(199, 199, 232);
+width:1010px;
+height:600px;
+border:10px;
+padding:50px;
+margin:5% auto;
+border-radius:100px;
+
+}
+.Iframe{
+position:relative;
+top:10px;
+left:2px;
+border:2px solid;
+height:300px;
+width:750px;
+border-radius:100px;
+padding:50px;
+
+
+}
+.submit{
+padding:2px;
+background-color: lightgrey;
+font-size:15px;
+border-radius:5px;
+
+}
+
+select{padding: 5px 20px; border-radius: 4px;
+text-align: center;}
+input[type=text],[type=password] {padding: 7px 40px;
+margin: 9px 0;
+box-sizing: border-box;
+border-radius: 10px;
+text-align: center;
+    
+}
+.Ratebutton{
+position:relative;
+left:100px;
+margin-top: -165px;
+}
+.image{
+position:relative;
+height:100px;
+width:100px;
+}
+.table{
+border-collapse: collapse;
+width:100%;
+position:relative;
+margin-left:9% auto;
+padding: 20px;
+}
+.td,th{
+height:50px;
+width:50px;
+}
+.pic{  /*grey t-shirt pic*/
+position:relative;
+left:201px;
+margin-top: 20px;
+}
+.bluepic{
+position:relative;
+top:-450px;
+left:680px;
+}
+.vid{
+position:relative;
+left:190px;
+top:-400px;
+}
+.lin{
+position:relative;
+left:700px;
+top:-100px;
+}
+.kidstable{
+position:relative;
+left:-130px;
+top:-700px;
+}
