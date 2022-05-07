@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+body{
+    background:ghostwhite;
+    font-size: 14px;
+    font-family: 'popins',sans-serif;
+}
+ .container{ 
+     width: 80%;
+     margin: 50px auto;
+ }
+ .contact-box{
+      background: #fff;
+      display: flex;
+ }
+   .contact-left{
+       flex-basis: 60%;
+       padding: 40px 60px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+   }
+   .contact-right{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background:black;
+    color: #fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ .h1{
+     margin-bottom: 10px;
+ }
+  .container p{
+      margin-bottom: 40px;
+  }
+   .input-row{
+       display:inline-flexbox;
+       justify-content: space-between;
+       margin-bottom: 20px;
+     }
+      .input-row.input-group{
+          flex-basis:45%;
+      }
+      input{
+          width: 50%;
+          border: none;
+          border-bottom: 1px solid #ccc;
+          outline: none;
+          padding-bottom: 5px;
+      }
+      textarea{
+          width: 100%;
+          border: 1px solid #ccc;
+          outline: none;
+          padding: 20px;
+          box-sizing: border-box;
+      }
+      label{
+          margin-bottom: 6px;
+          display: block;
+          color: black;
+      }
+      button{
+          background: black;
+          width: 100px;
+          border:none;
+          outline: auto;
+          color: #fff;
+          height: 35px;
+          border-radius: 30px;
+          margin-top: 20px;
+          box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3)
+         }
+         .contact-right , h3{
+             font-weight: 600;
+         
+             margin-bottom: 30px;
+         }
+         tr ,td:first-child{
+             padding-right: 20px;
+         }
+        tr , td:first-child{
+            padding-top: 20px;
+        }
+    .social{
+        margin-top: 40px;
+        width: 20px;
+    }
+           
